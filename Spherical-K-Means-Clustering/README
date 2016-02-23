@@ -1,6 +1,4 @@
-HW4 from Wenhao Xu:
-
-To test Homework 4, use command:
+Use command:
 	python cluster.py
 
 Four python files are used to perform the main task in this homework. Those files are:
@@ -14,6 +12,3 @@ Also, to test the hypothesis, there is another file that runs the T-test:
 
 There is a R script to plot the learning curve with error bar:
 	plot.R
-
-Report is included in this folder.
-
