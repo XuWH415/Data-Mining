@@ -1,9 +1,7 @@
-In my implementation, I will use only one script to do everything.
-
-To use command line, there are three different format:
+There are three different formats:
 1.	>> python nbc.py DataFilename classLabelIndex
 
-    This is the command line that splits one dataset into training set and testing set(10%, 50%, 90%), and predict labels in testing set using baseline scoring function 10 times for each proportion of split. It will then print out the mean and stdev of baseline scores.
+	This is the command line that splits one dataset into training set and testing set(10%, 50%, 90%), and predict labels in testing set using baseline scoring function 10 times for each proportion of split. It will then print out the mean and stdev of baseline scores.
 	
 	Example: >> python nbc.py funny_data.csv 5
 	
@@ -18,4 +16,3 @@ To use command line, there are three different format:
 	This is the command line that trains NBC model on training data and test the model on testing data. It will print the 0-1 loss directly.
 	
 	Example: >> python nbc.py funny_data.csv stars_data.csv 5 1
-	(I use stars_data.csv since I don't have any other files to be the testing set)
