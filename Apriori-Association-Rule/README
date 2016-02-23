@@ -1,0 +1,14 @@
+*****************************************************************************************************
+	There is a issue about function scipy.stats.chisquare(f_obs,  f_exp=None, ddof=0, axis=0).
+	
+	I have the newer version of scipy, v0.15, which for this function it have a new argument 'axis'. 
+	In the server data.cs.purdue.edu, it has a older version of scipy, v0.12, which does not have this
+	argument and will show an error when I use that argument. If you have the same issue, please
+	let me know.
+*****************************************************************************************************
+
+Homework 5:
+	To run this program, use command:
+		python apriori.py
+	
+	To get top 30 rules for each situation, you need to uncomment a few line in the codes to let the printRule() function work.
